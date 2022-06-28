@@ -1,0 +1,23 @@
+
+.frame{
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+.frame > * {
+	height: 100%;
+    min-height: 100%;
+    padding: 10px;
+    flex: 1 100%;
+}
+.header {
+    background: tomato;
+}
+.footer {
+    background: lightgreen;
+}  
+.main {
+    text-align: left;
+    background: deepskyblue;
+}
