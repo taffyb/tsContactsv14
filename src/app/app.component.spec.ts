@@ -26,10 +26,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('tsContactsv14');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('tsContactsv14 app is running!');
-  });
+  // it('should render title', () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   fixture.detectChanges();
+  //   const compiled = fixture.nativeElement as HTMLElement;
+  //   expect(compiled.querySelector('.content span')?.textContent).toContain('tsContactsv14 app is running!');
+  // });
 });

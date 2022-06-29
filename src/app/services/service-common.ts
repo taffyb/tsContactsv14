@@ -1,8 +1,9 @@
 
 import {HttpHeaders} from '@angular/common/http';
 import { Observable, of, EMPTY } from 'rxjs';
+import {environment as env} from '../../environments/environment';
 
-export const endpoint='http://localhost:4001/api/';
+export const endpoint=env.endpoint;
 export const httpOptions:any = {
         headers: new HttpHeaders({
             'Content-Type':  'application/json'

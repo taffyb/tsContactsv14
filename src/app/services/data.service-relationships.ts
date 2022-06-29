@@ -2,7 +2,7 @@ import {HttpHeaders,HttpClient} from '@angular/common/http';
 import { Observable, of, EMPTY } from 'rxjs';
 import { map, catchError, tap } from 'rxjs/operators';
 
-import * as common from './data.service-common';
+import * as common from './service-common';
 import {IRelationship} from './interfaces';
 
 //Caches
