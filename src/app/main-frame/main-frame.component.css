@@ -1,23 +1,39 @@
 
-.frame{
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
+.container {
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:20px;
+    display: flex;  
+    flex-flow: column ;
+    height:100%;
 }
-.frame > * {
-	height: 100%;
-    min-height: 100%;
-    padding: 10px;
-    flex: 1 100%;
+.container > * {
+flex: 1 100%;
 }
 .header {
-    background: tomato;
+    max-height:5%;
+    background: lightgreen;
 }
 .footer {
+    max-height:3%;
     background: lightgreen;
-}  
-.main {
-    text-align: left;
-    background: deepskyblue;
+}
+.body {
+   border-top:1px solid black;
+  max-height:91%;
+  display:flex;
+  flex-flow: row;
+}
+.centre{
+    padding-left:5px;
+    padding-right:5px;
+    flex-basis:68%;
+}
+.left {
+   border-right:1px solid black;
+    flex-basis:16%;
+}
+.right {
+   border-left:1px solid black;
+    flex-basis:16%;
 }
